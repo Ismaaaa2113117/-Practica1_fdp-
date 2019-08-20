@@ -1,0 +1,157 @@
+Namibia25:~ alumno$ mkdir practica2
+Namibia25:~ alumno$ cd practica2
+Namibia25:practica2 alumno$ mkdir calculo 
+Namibia25:practica2 alumno$ mkdir programacion
+Namibia25:practica2 alumno$ mkdir quimica
+Namibia25:practica2 alumno$ mkdir fisica
+Namibia25:practica2 alumno$ mkdir algebra
+Namibia25:practica2 alumno$ ls
+algebra		calculo		fisica		programacion	quimica
+Namibia25:practica2 alumno$ cd algebra
+Namibia25:algebra alumno$ touch archivo.txt
+Namibia25:algebra alumno$ ls
+archivo.txt
+Namibia25:algebra alumno$ cp archivo.txt ../calculo/
+Namibia25:algebra alumno$ cp archivo.txt ../fisica/
+Namibia25:algebra alumno$ cp
+cp                  cpanp               cpp
+cpan                cpanp-run-perl      cpu_profiler.d
+cpan2dist           cpanp-run-perl5.18  cpuwalk.d
+cpan2dist5.18       cpanp5.18           
+cpan5.18            cpio                
+Namibia25:algebra alumno$ cp archivo.txt ../programacion/
+Namibia25:algebra alumno$ cp archivo.txt ../quimica/
+Namibia25:algebra alumno$ ls
+archivo.txt
+Namibia25:algebra alumno$ cd ..
+Namibia25:practica2 alumno$ ls
+algebra		calculo		fisica		programacion	quimica
+Namibia25:practica2 alumno$ cd calculo
+Namibia25:calculo alumno$ ls
+archivo.txt
+Namibia25:calculo alumno$ cd ..
+Namibia25:practica2 alumno$ cd fisica
+Namibia25:fisica alumno$ cd ..
+Namibia25:practica2 alumno$ ls fisica
+archivo.txt
+Namibia25:practica2 alumno$ ls quimica
+archivo.txt
+Namibia25:practica2 alumno$ ls programacion
+archivo.txt
+Namibia25:practica2 alumno$ cd programacion
+Namibia25:programacion alumno$ ls
+archivo.txt
+Namibia25:programacion alumno$ ls ../fisica
+archivo.txt
+Namibia25:programacion alumno$ cd ..
+Namibia25:practica2 alumno$ echo "hola mundo"
+hola mundo
+Namibia25:practica2 alumno$ ls
+algebra		calculo		fisica		programacion	quimica
+Namibia25:practica2 alumno$ cd fisica
+Namibia25:fisica alumno$ ls
+archivo.txt
+Namibia25:fisica alumno$ cd archivo.txt
+-bash: cd: archivo.txt: Not a directory
+Namibia25:fisica alumno$ cat archivo.txt
+Namibia25:fisica alumno$ echo "Ismael De Lorenz Muñiz 317564187" >> archivo.txt
+Namibia25:fisica alumno$ cat archivo.txt
+Ismael De Lorenz Muñiz 317564187
+Namibia25:fisica alumno$ cd ..
+Namibia25:practica2 alumno$ ls
+algebra		calculo		fisica		programacion	quimica
+Namibia25:practica2 alumno$ cd algebra
+Namibia25:algebra alumno$ cat archivo.txt
+Namibia25:algebra alumno$ cd ..
+Namibia25:practica2 alumno$ echo "Ismael De Lorenz Muñiz 317564187" >> archivo.txt
+Namibia25:practica2 alumno$ cat fisica/archivo.txt
+Ismael De Lorenz Muñiz 317564187
+Namibia25:practica2 alumno$ cat algebra/archivo.txt
+Namibia25:practica2 alumno$ ls
+algebra		calculo		programacion
+archivo.txt	fisica		quimica
+Namibia25:practica2 alumno$ rm archivo.txt
+Namibia25:practica2 alumno$ ls
+algebra		calculo		fisica		programacion	quimica
+Namibia25:practica2 alumno$ cd algebra
+Namibia25:algebra alumno$ echo "Ismael De Lorenz Muñiz 317564187" >> archivo.txtcat archivo.txt
+Namibia25:algebra alumno$ ls
+archivo.txt	archivo.txtcat
+Namibia25:algebra alumno$ rm archivo.txtcat
+Namibia25:algebra alumno$ ls
+archivo.txt
+Namibia25:algebra alumno$ cat archivo.txt
+Namibia25:algebra alumno$ ls
+archivo.txt
+Namibia25:algebra alumno$ echo "Ismael De Lorenz Muñiz 317564187" >> archivo.txtNamibia25:algebra alumno$ ls
+archivo.txt
+Namibia25:algebra alumno$ cat archivo.txt
+Ismael De Lorenz Muñiz 317564187
+Namibia25:algebra alumno$ cd ..
+Namibia25:practica2 alumno$ ls
+algebra		calculo		fisica		programacion	quimica
+Namibia25:practica2 alumno$ cd calculo
+Namibia25:calculo alumno$ echo "Ismael De Lorenz Muñiz 317564187" >> archivo.txtNamibia25:calculo alumno$ cat archivo.txt
+Ismael De Lorenz Muñiz 317564187
+Namibia25:calculo alumno$ cd ..
+Namibia25:practica2 alumno$ ls
+algebra		calculo		fisica		programacion	quimica
+Namibia25:practica2 alumno$ cd programacion
+Namibia25:programacion alumno$ echo "Ismael De Lorenz Muñiz 317564187" >> archivo.txt
+Namibia25:programacion alumno$ cat archivo.txt
+Ismael De Lorenz Muñiz 317564187
+Namibia25:programacion alumno$ cd..
+-bash: cd..: command not found
+Namibia25:programacion alumno$ cd ..
+Namibia25:practica2 alumno$ ls
+algebra		calculo		fisica		programacion	quimica
+Namibia25:practica2 alumno$ cd quimica
+Namibia25:quimica alumno$ cat archivo.txt
+Namibia25:quimica alumno$ echo "Ismael De Lorenz Muñiz 317564187" >> archivo.txtNamibia25:quimica alumno$ cat archivo.txt
+Ismael De Lorenz Muñiz 317564187
+Namibia25:quimica alumno$ cd ..
+Namibia25:practica2 alumno$ ls
+algebra		calculo		fisica		programacion	quimica
+Namibia25:practica2 alumno$ mkdir tutoria
+Namibia25:practica2 alumno$ cp quimica/archivo.txt /tutoria/
+cp: directory /tutoria does not exist
+Namibia25:practica2 alumno$ ls
+algebra		fisica		quimica
+calculo		programacion	tutoria
+Namibia25:practica2 alumno$ cp quimica/archivo.txt /tutoria
+cp: /tutoria: Permission denied
+Namibia25:practica2 alumno$ cd tutoria
+Namibia25:tutoria alumno$ ls
+Namibia25:tutoria alumno$ cd ..
+Namibia25:practica2 alumno$ cd quimica
+Namibia25:quimica alumno$ ls
+archivo.txt
+Namibia25:quimica alumno$ cat archivo.txt
+Ismael De Lorenz Muñiz 317564187
+Namibia25:quimica alumno$ cp archivo.txt ../tutoria/
+Namibia25:quimica alumno$ cd ..
+Namibia25:practica2 alumno$ cd tutoria
+Namibia25:tutoria alumno$ ls
+archivo.txt
+Namibia25:tutoria alumno$ cat archivo.txt
+Ismael De Lorenz Muñiz 317564187
+Namibia25:tutoria alumno$ cd ..
+Namibia25:practica2 alumno$ cp quimica/archivo.txt ../tutoria/
+cp: directory ../tutoria does not exist
+Namibia25:practica2 alumno$ ls
+algebra		fisica		quimica
+calculo		programacion	tutoria
+Namibia25:practica2 alumno$ cp quimica/archivo.txt tutoria
+Namibia25:practica2 alumno$ cd tutoria 
+Namibia25:tutoria alumno$ ls
+archivo.txt
+Namibia25:tutoria alumno$ cat archivo.txt
+Ismael De Lorenz Muñiz 317564187
+Namibia25:tutoria alumno$ cd ..
+Namibia25:practica2 alumno$ cd quimica
+Namibia25:quimica alumno$ ls
+archivo.txt
+Namibia25:quimica alumno$ cat archivo.txt
+Ismael De Lorenz Muñiz 317564187
+Namibia25:quimica alumno$ cd ..
+Namibia25:practica2 alumno$ 
