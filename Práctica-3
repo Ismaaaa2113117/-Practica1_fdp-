@@ -1,0 +1,26 @@
+1)Solicitar el precio del artículo comprado 
+2)Si el número ingresado es mayor o igual a 100, D=0.1, si no lo es, D=0.02
+3)F=Precio del artículo x D
+4)PR= Precio del artículo - F
+5)Imprimir PR y F
+
+
+1)Solicitar dos números
+2)S=Num1+Num2
+3)R1=Num1-Num2
+4)R2=Num2-Num1
+5)M=Num1*Num2
+6)D1=Num1/Num2
+7)D2=Num2/Num1
+8)Imprimir S, R1, R2, M, D1, D2
+
+
+1)Solicitar fecha en formato D/M/A
+2)Si M es mayor o igual a 1 y menos o igual a 12, seguir al paso 3, si no, imprimir "No válido"
+3)Si M=1, 3, 5, 7, 8, 10, 12 Seguir al paso 4, si M=4, 6, 9, 11, pasar al paso 5, si M=2, pasar al paso 6
+4)Si D es mayor o igual a 1 y menor o igual a 31, pasar al paso 9, si no, imprimir "No válido"
+5) Si D es mayor o igual a 1 y menor o igual a 30, pasar al paso 9, si no, imprimir "No válido"
+6) Si A pertenece al conjunto de {X = 4n donde N pertenece a los naturales} pasar al paso 7, si no lo hace, pasar al paso 8
+7) Si D es mayor a igual a 1 y menor o igual a 29, pasar al paso 9, si no, imprimir "No válido"
+8) Si D es mayor o igual a 1 y menor o igual a 28, pasar al paso 9, si no, imprimir "No válido"
+9) Imprimir "Válido"
